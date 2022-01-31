@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey; 
+    background-color: rgb(61, 60, 60); 
 }
 #board {
     display: grid;
@@ -23,19 +23,19 @@ body {
 }
 
 .left-border {
-    border-left: 0.2em solid rgb(255, 105, 248);
+    border-left: 0.2em groove rgb(255, 105, 248);
 }
 
 .top-border {
-    border-top: 0.2em solid rgb(255, 105, 248);
+    border-top: 0.2em groove rgb(255, 105, 248);
 }
 
 .right-border {
-    border-right: 0.2em solid brown;
+    border-right: 0.2em groove brown;
 }
 
 .bottom-border {
-    border-bottom: 0.2em solid  brown;
+    border-bottom: 0.2em groove  brown;
 }
 
 .strike {
@@ -99,5 +99,39 @@ h1{
     color: rgb(255, 105, 248);
 }
 
+#game-over-area {
+    color: brown;
+    font-size: 1.5em;
+    background-color: skyblue;
+    text-align: center;
+    border-top:rgb(255, 105, 248) 8px groove;
+    border-left:rgb(255, 105, 248) 8px groove;
+    border-right:brown 8px groove;
+    border-bottom:brown 8px groove;
+    padding: 25px;
+    width: 25%;
+    margin-top: 50px;
+}
 
+button {
+    background-color:rgb(255, 105, 248);
+    font-size: 1em;
+    padding: 5px;
+    border: brown 2px solid;
+}
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.x-hover:hover::after{
+    content:"X";
+}
+
+.o-hover:hover::after {
+    content:"O";
+}
