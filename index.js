@@ -3,7 +3,7 @@ const PLAYER_X = 'X';
 const PLAYER_O = 'O';
 let turn = PLAYER_X;
 
-const boardState = Array(tiles.legnth);
+const boardState = Array(tiles.length);
 boardState.fill(null);
 
 // Elements
@@ -19,7 +19,7 @@ playAgain.addEventListener("click", startNewGame);
 
 tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 
-function setHovertext(){
+function setHoverText(){
    //remove all hover text
    tiles.forEach((tile) =>{
        tile.classList.remove("x-hover");
@@ -100,7 +100,7 @@ function startNewGame(){
     strike.className = "strike";
     gameOverArea.className = "hidden";
     boardState.fill(null);
-    tile.forEach((tile) => tile.innerText ="");
+    tiles.forEach((tile) => tile.innerText ="");
     turn = PLAYER_X;
     setHoverText();
 }
