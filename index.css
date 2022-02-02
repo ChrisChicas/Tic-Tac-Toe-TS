@@ -99,6 +99,14 @@ h1{
     color: rgb(255, 105, 248);
 }
 
+.pink-camron {
+    width: 300px;
+    border-top:rgb(255, 105, 248) 8px groove;
+    border-bottom: brown 8px groove;
+    border-left: brown 8px groove;
+    border-right:rgb(255, 105, 248) 8px groove;
+}
+
 #game-over-area {
     color: brown;
     font-size: 1.5em;
