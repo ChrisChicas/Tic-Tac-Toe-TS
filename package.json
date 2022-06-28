@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe-ts",
+  "version": "1.0.0",
+  "description": "My project is Tic-Tac-Toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisChicas/Tic-Tac-Toe-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisChicas/Tic-Tac-Toe-TS/issues"
+  },
+  "homepage": "https://github.com/ChrisChicas/Tic-Tac-Toe-TS#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
